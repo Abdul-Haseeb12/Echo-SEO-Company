@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    margin-left: 310px;
+}
+
+.logo-img{
+    margin-left: 120px;
+}
+
+.download-btn{
+    margin-right: 110px;
+    background-color: #081158;
+    color: #FBB244;
+    border-radius: 25px;
+}
+
+.download-btn:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
+.hero-img img{
+    width: 600px;
+}
+
+.header-text{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.welcome-text{
+    background-color: #FEF0DA;
+    width: 200px ;
+    font-size: 13px;
+    border-radius: 25px;
+    color: #FBB244;
+}
+
+.service-text{
+    color: #081158;
+    font-weight: 700;
+}
+
+.hero-img{
+    margin-top: 110px;
+}
+
+.work-btn{
+    background-color: #081158;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;   
+}
+
+.work-btn:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
+.contact-btn{
+    border-radius: 20px;
+    border: 1px solid black;
+    background: none;
+    color: black;
+}
+
+.contact-btn:hover{
+    background-color: #081158;
+    color: white;
+    font-weight: 600;
+}
+
+.section-text{
+    margin-top: 150px;
+}
+
+.section-text h6{
+    background-color: #FEF0DA;
+    width: 130px;
+    margin-left: 600px;
+    border-radius: 25px;
+    color: #FBB244;
+}
+
+.section-text h1{
+    color: #081158;
+}
+
+.card-section{
+    margin-top: 150px;
+}
+
+.card-1{
+    width: 250px;
+}
+
+.card-1 h1{
+    font-weight: 600;
+}
+
+.card-1 img{
+    margin-left: 10px;
+    width: 50px;
+}
+
+.card-2{
+    margin-left: 180px;
+    margin-right: 180px;
+    width: 250px;
+}
+.card-2 img{
+    margin-left: 10px;
+    width: 50px;
+}
+
+.about-section{
+    margin-top: 160px;
+}
+
+.about-img img{
+    width: 700px;
+
+}
+.about-text{
+    margin-left: 100px;
+    width: 450px;
+    margin-top: 60px;
+}
+
+.about-text h4{
+    background-color: #FEF0DA;
+    width: 130px;
+    border-radius: 25px;
+    color: #FBB244;
+}
+
+.about-text button{
+    border-radius: 20px;
+    border: 1px solid black;
+    background: none;
+    color: black;
+}
+
+.about-text button:hover{
+    background-color: #081158;
+    color: white;
+    font-weight: 600;
+}
+
+
+.tick-logo{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.card{
+    width: 290px;
+    box-shadow: 0px 3px 25px -8px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.card img{
+    margin-left: 110px;
+    width: 40px;
+}
+
+.service-text-1{
+    margin-top: 160px;
+}
+
+.service-text-1 h5{
+    margin-left: 600px;
+    width: 140px;
+    background-color: #FEF0DA;
+    border-radius: 25px;
+    color: #FBB244;
+}
+
+.service-cards{
+    margin-top: 180px;
+}
+
+.testimonials-section{
+    background-color: #F8F9FA;
+    height: 600px;
+}
+
+.client-detail{
+    margin-top: 70px;
+}
+
+.comment-text{
+    padding-top: 120px;
+}
+
+.comment-text h6{
+    background-color: #FEF0DA;
+    width: 170px;
+    margin-left: 575px;
+    border-radius: 25px;
+    color: #FBB244;
+}
+
+.comment-text h1{
+    color: #081158;
+}
+
+
+.comment-card img{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.client-1 img{
+    margin-right: 200px;
+}
+
+.client-review{
+    margin-top: 130px;
+}
+
+.last-line{
+    margin-top: 80px;
+}
+
+.about-colorlib i{
+    background-color: #081158;
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    .download-btn,
+    .work-btn,
+    .contact-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-text p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-img {
+        max-width: 0%;
+    }
+    .about-img img{
+        max-width: 0%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero-img img {
+        width: 0%;
+    }
+
+    .about-img img{
+        width: 0%;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}   
